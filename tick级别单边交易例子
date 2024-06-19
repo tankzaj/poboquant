@@ -6,7 +6,7 @@ import datetime
 # on tick level 仅供参考 不保证盈利 这是一个单边交易策略
 #用poboquant python实现，在poboquant上运行，如果有问题 可加群 726895887 咨询
 def OnStart(context) :
-    print "I\'m starting..."
+    print "I\'m starting...."
     #g.code = "TA901.CZCE" #works for TA MA day 6 4
     #g.code= GetMainContract('CZCE', 'TA',20)
     #g.code="cu1905C49000.SHFE"#"m1905-C-2500.DCE"#"10001731.SHSE"#"510050.SHSE" #"510050.SHSE"#"10001620.SHSE"#"600500.SHSE" "10001727.SHSE" "ta905.CZCE"
